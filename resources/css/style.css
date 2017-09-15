@@ -2,13 +2,15 @@ body {
   font-size: 16px;
 }
 
-/* Navigation Top*/
-.navbar .container {
-  height: 4rem;
+.container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border: 1px dotted black;
+}
+
+/* Navigation Top*/
+nav {
+  height: 4rem;
 }
 
 .brand {
@@ -38,14 +40,6 @@ li {
 }
 
 /* Jumbotron */
-.jumbotron {
-  border: 1px dotted black;
-}
-
-.jumbotron .container {
-  display: flex;
-  align-items: center;
-}
 
 .jumbotron img {
   width: 60%;
