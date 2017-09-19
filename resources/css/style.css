@@ -4,12 +4,13 @@ body {
 
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border: 1px dotted black;
 }
 
 /* Navigation Top*/
-nav {
+nav.container{
   height: 4rem;
 }
 
@@ -48,12 +49,50 @@ li {
 
 /* Main */
 .main {
+  display: flex;
   border: 1px dotted black;
+}
+
+.main img {
+  width: 60%;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.information {
+  border: 1px dotted red;
+  width: 40%;
+  height: 100%;
+}
+
+.info {
+  border: 1px solid pink;
+  display: flex;
+}
+
+.info img {
+  width: 35%;
+  height: auto;
 }
 
 /* Start Learning */
 .learning {
   border: 1px dotted black;
+  display: flex;
+  flex-direction: column;
+}
+
+.learning h2 {
+  display: inline-block;
+  width: 100%;
+  border: 1px dotted blue;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid blue;
+  margin: 32px 72px 32px 72px;
 }
 
 /* Thesis Exhibit */
@@ -61,6 +100,25 @@ li {
   border: 1px dotted black;
 }
 
+video {
+  width: 60%;
+}
+
+.thesis-column {
+  width: 40%;
+  height: 100%;
+  border: 1px dotted red;
+}
+
+.thesis {
+  border: 1px solid pink;
+  display: flex;
+}
+
+.thesis img {
+  width: 35%;
+  height: auto;
+}
 /* Footer */
 footer {
   border: 1px dotted black;
