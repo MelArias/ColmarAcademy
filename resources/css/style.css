@@ -173,6 +173,7 @@ video {
 .thesis img {
   width: 35%;
   height: auto;
+  margin: 16px;
 }
 
 /* Footer */
