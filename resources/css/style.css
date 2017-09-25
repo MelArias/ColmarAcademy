@@ -15,7 +15,7 @@ h1 {
   font-size: 4rem;
   line-height: 4rem;
   padding-bottom: 2rem;
-  color: white;
+  color: rgb(251, 227, 212);
 }
 
 h2 {
@@ -24,16 +24,16 @@ h2 {
   font-size: 2.5rem;
   padding: 32px 0 32px 0;
   text-align: center;
-  color: rgb(255, 209, 170);
+  color: rgb(251, 230, 212);
 }
 
 h3 {
   font-family: 'Source Serif Pro', serif;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
   margin: 1.5rem 0 1.5rem 0;
-  color: rgb(85, 39, 0);
+  color: rgb(208, 173, 152);
 }
 
 h4 {
@@ -48,6 +48,7 @@ h5 {
   font-size: .85rem;
   font-weight: 300;
   margin-bottom: 1rem;
+  color: rgb(208, 173, 152);
 }
 
 p {
@@ -60,13 +61,13 @@ p {
 a {
   font-family: 'Roboto Slab', serif;
   font-size: 1rem;
-  color: white;
+  color: rgb(92, 124, 126);
 }
 
 /* Navigation Top*/
 nav.container{
   height: 4rem;
-  background-color: rgb(35, 100, 103);
+  background-color: rgb(251, 230, 212);
   position: fixed;
   z-index: 5;
   width: 100%;
@@ -112,7 +113,7 @@ li {
 
 .jumbotron {
   padding-top: 4rem;
-  background-color: rgb(170, 99, 57);
+  background-color: rgb(70, 113, 102);
 }
 
 .jumbotron img {
@@ -141,14 +142,14 @@ li {
 
 .button a {
   font-size: 1rem;
-  color: white;
+  color: rgb(251, 230, 212);
   text-decoration: none;
 }
 
 /* Main */
 
 .main {
-  background-color: rgb(170, 109, 57);
+  background-color: rgb(173, 138, 107);
   display: flex;
   padding-bottom: 2rem;
 }
@@ -179,7 +180,7 @@ li {
 .info {
   margin-top: 2rem;
   display: flex;
-  background-color: rgb(212, 155, 106);
+  background-color: rgb(208, 178, 152);
 }
 
 .info .picture {
@@ -205,7 +206,7 @@ li {
 
 /* Start Learning */
 .learning {
-  background-color: rgb(170, 99, 57);
+  background-color: rgb(173, 132, 107);
   display: flex;
   flex-direction: column;
 }
@@ -233,7 +234,7 @@ li {
   margin: 16px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(212, 145, 106);
+  background-color: rgb(138, 98, 74);
 }
 
 .course-picture {
@@ -251,12 +252,12 @@ li {
 
 .course-text {
   height: 8rem;
-  margin: 1rem 1rem 1.5rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 /* Thesis Exhibit */
 .exhibit {
-  background-color: rgb(170, 109, 57);
+  background-color: rgb(173, 138, 107);
   display: block;
 }
 
@@ -282,7 +283,7 @@ video {
 
 .thesis {
   display: flex;
-  background-color: rgb(212, 155, 106);
+  background-color: rgb(208, 178, 152);
   margin: 16px;
 }
 
@@ -298,16 +299,17 @@ video {
 
 /* Footer */
 footer {
-  background-color: rgb(35, 100, 103);
+  background-color: rgb(92, 124, 126);
   padding: 1.5rem;
 }
 
 footer a {
+  color: rgb(251, 230, 212);
   margin-left: 1rem;
 }
 
 footer p {
-  color: white;
+  color: rgb(251, 230, 212);
 }
 
 /* Mobile */
@@ -366,7 +368,6 @@ footer p {
     max-height: auto;
     overflow: hidden;
     margin: 1rem;
-    border: 1px solid blue;
   }
 
   .info-mobile-pic img {
