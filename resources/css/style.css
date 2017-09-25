@@ -9,6 +9,33 @@ body {
   border: 1px dotted black;
 }
 
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 32px 0 32px 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
 /* Navigation Top*/
 nav.container{
   height: 4rem;
@@ -18,7 +45,12 @@ nav.mobile {
   display: none;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 .brand {
+  font-family: 'Source Serif Pro', serif;
   display: flex;
   margin-left: 1.5rem;
   align-items: center;
@@ -29,7 +61,7 @@ nav.mobile {
 }
 
 .brand a {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 ul {
@@ -39,7 +71,8 @@ ul {
 }
 
 li {
-  font-size: 1.5rem;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1rem;
   list-style-type: none;
   margin-left: 1rem;
 }
@@ -73,6 +106,7 @@ li {
   margin-right: 32px;
 }
 
+
 /* Main */
 .main {
   display: flex;
@@ -87,10 +121,6 @@ li {
 .main-blurb img {
   width: 100%;
   height: auto;
-}
-
-.main h2 {
-  margin-bottom: 1.5rem;
 }
 
 .information {
@@ -137,8 +167,7 @@ li {
   flex-direction: column;
 }
 
-.learning h2 {
-  text-align: center;
+.learning h3 {
   margin-top: 32px;
   width: 100%;
   border: 1px dotted blue;
@@ -188,11 +217,6 @@ li {
 .exhibit {
   border: 1px dotted black;
   display: block;
-}
-
-.exhibit h2 {
-  text-align: center;
-  margin: 32px 0 32px 0;
 }
 
 .exhibit-contents {
