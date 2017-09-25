@@ -1,39 +1,62 @@
 body {
   font-size: 16px;
+  line-height: 1.2rem;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px dotted black;
 }
 
 h1 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 4rem;
+  line-height: 4rem;
   margin-bottom: 2rem;
 }
 
 h2 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 32px 0 32px 0;
   text-align: center;
 }
 
 h3 {
   font-family: 'Source Serif Pro', serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
   text-align: center;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 0 1rem 0;
+}
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: .85rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 p {
   font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
   font-weight: 300;
-  line-height: 1.5rem;
+  line-height: 2rem;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
 }
 
 /* Navigation Top*/
@@ -61,7 +84,7 @@ nav a {
 }
 
 .brand a {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -84,11 +107,19 @@ li {
   margin: 2rem 1.5rem 2rem 1.5rem;
 }
 
+.start {
+  width: 35%;
+  margin-right: 32px;
+}
+
+.start p {
+  margin-bottom: 1.5rem;
+}
+
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid grey;
   background-color: grey;
   text-align: center;
   width: 100%;
@@ -101,16 +132,10 @@ li {
   text-decoration: none;
 }
 
-.start {
-  border: 1px dotted blue;
-  margin-right: 32px;
-}
-
-
 /* Main */
+
 .main {
   display: flex;
-  border: 1px dotted black;
 }
 
 .main-blurb {
@@ -124,7 +149,6 @@ li {
 }
 
 .information {
-  border: 1px dotted red;
   width: 40%;
   height: 100%;
 }
@@ -134,7 +158,7 @@ li {
 }
 
 .info {
-  border: 1px solid pink;
+  margin-top: 2rem;
   display: flex;
 }
 
@@ -143,7 +167,6 @@ li {
   height: auto;
   margin: 16px;
   overflow: hidden;
-  border: 1px dotted blue;
 }
 
 .info img {
@@ -162,7 +185,6 @@ li {
 
 /* Start Learning */
 .learning {
-  border: 1px dotted black;
   display: flex;
   flex-direction: column;
 }
@@ -170,7 +192,6 @@ li {
 .learning h3 {
   margin-top: 32px;
   width: 100%;
-  border: 1px dotted blue;
 }
 
 .grid {
@@ -179,7 +200,6 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
   margin: 32px 56px 32px 56px;
 }
 
@@ -192,7 +212,6 @@ li {
   margin: 16px;
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
 }
 
 .course-picture {
@@ -209,13 +228,12 @@ li {
 }
 
 .course-text {
-  height: 60%;
+  height: 8rem;
   margin: 1rem 1rem 1.5rem 1rem;
 
 }
 /* Thesis Exhibit */
 .exhibit {
-  border: 1px dotted black;
   display: block;
 }
 
@@ -237,11 +255,9 @@ video {
 .thesis-column {
   width: 40%;
   height: 100%;
-  border: 1px dotted red;
 }
 
 .thesis {
-  border: 1px solid pink;
   display: flex;
 }
 
@@ -251,9 +267,12 @@ video {
   margin: 16px;
 }
 
+.thesis-info {
+  margin-top: 2rem;
+}
+
 /* Footer */
 footer {
-  border: 1px dotted black;
 }
 
 /* Mobile */
