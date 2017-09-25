@@ -333,4 +333,12 @@ footer {
   .video-blurb {
     width: 100%;
   }
+
+  footer nav {
+    display: none;
+  }
+
+  footer p {
+    margin: 1rem;
+  }
 }
