@@ -14,6 +14,10 @@ nav.container{
   height: 4rem;
 }
 
+nav.mobile {
+  display: none;
+}
+
 .brand {
   display: flex;
   margin-left: 1.5rem;
@@ -48,6 +52,9 @@ li {
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid grey;
   background-color: grey;
   text-align: center;
@@ -90,6 +97,10 @@ li {
   border: 1px dotted red;
   width: 40%;
   height: 100%;
+}
+
+.information-mobile {
+  display: none;
 }
 
 .info {
@@ -141,6 +152,10 @@ li {
   align-items: center;
   border: 1px solid blue;
   margin: 32px 56px 32px 56px;
+}
+
+.grid-mobile {
+  display: none;
 }
 
 .course {
@@ -215,4 +230,107 @@ video {
 /* Footer */
 footer {
   border: 1px dotted black;
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  nav.container {
+    display: none;
+  }
+
+  nav.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 64px;
+  }
+
+  nav.mobile ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .jumbotron {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jumbotron img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 2rem 0;
+  }
+
+  .jumbotron .start {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 1rem 2rem 1rem;
+    align-items: center;
+  }
+
+  .main-blurb {
+    display: none;
+  }
+
+  .information {
+    display: none;
+  }
+
+  .information-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-mobile-pic {
+    max-width: 100%;
+    max-height: auto;
+    overflow: hidden;
+    margin: 1rem;
+    border: 1px solid blue;
+  }
+
+  .info-mobile-pic img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info-mobile-text {
+    max-width: 100%;
+    margin: 1rem 1rem 4rem 1rem;
+    text-align: center;
+  }
+
+  .grid {
+    display: none;
+  }
+
+  .grid-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .course-mobile {
+    width: 100%;
+    margin: .5rem;
+    background-color: lightgrey;
+  }
+
+  .course-mobile a {
+    margin: 1rem 1rem 1.5rem 1rem;
+  }
+
+  .thesis-column {
+    display: none;
+  }
+
+  .exhibit-contents {
+    width: 100%;
+  }
+
+  .video-blurb {
+    width: 100%;
+  }
 }
