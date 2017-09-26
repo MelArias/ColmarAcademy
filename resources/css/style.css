@@ -325,6 +325,7 @@ footer p {
     align-items: center;
     justify-content: space-around;
     height: 64px;
+    background-color: rgb(251, 230, 212);
   }
 
   nav.mobile ul {
@@ -336,6 +337,10 @@ footer p {
   .jumbotron {
     display: flex;
     flex-direction: column;
+  }
+
+  .jumbotron h1 {
+    padding-left: 2rem;
   }
 
   .jumbotron img {
@@ -363,6 +368,12 @@ footer p {
   .information-mobile {
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .info-mobile {
+    background-color: rgb(208, 178, 152);
+    margin: 1rem;
   }
 
   .info-mobile-pic {
@@ -379,7 +390,7 @@ footer p {
 
   .info-mobile-text {
     max-width: 100%;
-    margin: 1rem 1rem 4rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
     text-align: center;
   }
 
@@ -390,17 +401,19 @@ footer p {
   .grid-mobile {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
   }
 
   .course-mobile {
     width: 100%;
     margin: .5rem;
-    background-color: lightgrey;
+    padding: 2rem;
+    background-color: rgb(138, 98, 74);
   }
 
   .course-mobile a {
-    margin: 1rem 1rem 1.5rem 1rem;
+    color: rgb(25, 67, 69);
+    font-size: 1.1rem;
   }
 
   .thesis-column {
@@ -420,6 +433,7 @@ footer p {
   }
 
   footer p {
-    margin: 1rem;
+    padding: .5rem;
+    font-size: .90rem;
   }
 }
